@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		952A8B2B17708CD50029BB34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 952A8B2A17708CD50029BB34 /* Foundation.framework */; };
+		952A8B3A17708CD50029BB34 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 952A8B3917708CD50029BB34 /* SenTestingKit.framework */; };
+		952A8B3C17708CD50029BB34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 952A8B3B17708CD50029BB34 /* UIKit.framework */; };
+		952A8B3D17708CD50029BB34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 952A8B2A17708CD50029BB34 /* Foundation.framework */; };
+		952A8B4017708CD50029BB34 /* libSPHttpRequest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 952A8B2717708CD50029BB34 /* libSPHttpRequest.a */; };
+		952A8B4617708CD50029BB34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 952A8B4417708CD50029BB34 /* InfoPlist.strings */; };
+		952A8B4917708CD50029BB34 /* SPHttpRequestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 952A8B4817708CD50029BB34 /* SPHttpRequestTests.m */; };
+		952A8B7617708D630029BB34 /* GTMGatherInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 952A8B5417708D630029BB34 /* GTMGatherInputStream.m */; };
+		952A8B7717708D630029BB34 /* GTMGatherInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 952A8B5417708D630029BB34 /* GTMGatherInputStream.m */; };
+		952A8B7817708D630029BB34 /* GTMHTTPFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 952A8B5617708D630029BB34 /* GTMHTTPFetcher.m */; };
+		952A8B7917708D630029BB34 /* GTMHTTPFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 952A8B5617708D630029BB34 /* GTMHTTPFetcher.m */; };
+		952A8B7A17708D630029BB34 /* GTMHTTPFetcherLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = 952A8B5817708D630029BB34 /* GTMHTTPFetcherLogging.m */; };
+		952A8B7B17708D630029BB34 /* GTMHTTPFetcherLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = 952A8B5817708D630029BB34 /* GTMHTTPFetcherLogging.m */; };
+		952A8B7C17708D630029BB34 /* GTMHTTPFetcherService.m in Sources */ = {isa = PBXBuildFile; fileRef = 952A8B5A17708D630029BB34 /* GTMHTTPFetcherService.m */; };
+		952A8B7D17708D630029BB34 /* GTMHTTPFetcherService.m in Sources */ = {isa = PBXBuildFile; fileRef = 952A8B5A17708D630029BB34 /* GTMHTTPFetcherService.m */; };
+		952A8B7E17708D630029BB34 /* GTMHTTPFetchHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = 952A8B5C17708D630029BB34 /* GTMHTTPFetchHistory.m */; };
+		952A8B7F17708D630029BB34 /* GTMHTTPFetchHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = 952A8B5C17708D630029BB34 /* GTMHTTPFetchHistory.m */; };
+		952A8B8017708D630029BB34 /* GTMHTTPUploadFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 952A8B5E17708D630029BB34 /* GTMHTTPUploadFetcher.m */; };
+		952A8B8117708D630029BB34 /* GTMHTTPUploadFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 952A8B5E17708D630029BB34 /* GTMHTTPUploadFetcher.m */; };
+		952A8B8217708D630029BB34 /* GTMMIMEDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 952A8B6017708D630029BB34 /* GTMMIMEDocument.m */; };
+		952A8B8317708D630029BB34 /* GTMMIMEDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 952A8B6017708D630029BB34 /* GTMMIMEDocument.m */; };
+		952A8B8417708D630029BB34 /* GTMReadMonitorInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 952A8B6217708D630029BB34 /* GTMReadMonitorInputStream.m */; };
+		952A8B8517708D630029BB34 /* GTMReadMonitorInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 952A8B6217708D630029BB34 /* GTMReadMonitorInputStream.m */; };
+		952A8B8617708D630029BB34 /* ReleaseNotes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 952A8B6317708D630029BB34 /* ReleaseNotes.txt */; };
+		952A8B9C17708D630029BB34 /* SPHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 952A8B7517708D630029BB34 /* SPHttpRequest.m */; };
+		952A8B9D17708D630029BB34 /* SPHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 952A8B7517708D630029BB34 /* SPHttpRequest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		952A8B3E17708CD50029BB34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 952A8B1F17708CD50029BB34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 952A8B2617708CD50029BB34;
+			remoteInfo = SPHttpRequest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		952A8B2517708CD50029BB34 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		952A8B2717708CD50029BB34 /* libSPHttpRequest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSPHttpRequest.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		952A8B2A17708CD50029BB34 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		952A8B2E17708CD50029BB34 /* SPHttpRequest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SPHttpRequest-Prefix.pch"; sourceTree = "<group>"; };
+		952A8B3817708CD50029BB34 /* SPHttpRequestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPHttpRequestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		952A8B3917708CD50029BB34 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		952A8B3B17708CD50029BB34 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		952A8B4317708CD50029BB34 /* SPHttpRequestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SPHttpRequestTests-Info.plist"; sourceTree = "<group>"; };
+		952A8B4517708CD50029BB34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		952A8B4717708CD50029BB34 /* SPHttpRequestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPHttpRequestTests.h; sourceTree = "<group>"; };
+		952A8B4817708CD50029BB34 /* SPHttpRequestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPHttpRequestTests.m; sourceTree = "<group>"; };
+		952A8B5317708D630029BB34 /* GTMGatherInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMGatherInputStream.h; sourceTree = "<group>"; };
+		952A8B5417708D630029BB34 /* GTMGatherInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMGatherInputStream.m; sourceTree = "<group>"; };
+		952A8B5517708D630029BB34 /* GTMHTTPFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMHTTPFetcher.h; sourceTree = "<group>"; };
+		952A8B5617708D630029BB34 /* GTMHTTPFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMHTTPFetcher.m; sourceTree = "<group>"; };
+		952A8B5717708D630029BB34 /* GTMHTTPFetcherLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMHTTPFetcherLogging.h; sourceTree = "<group>"; };
+		952A8B5817708D630029BB34 /* GTMHTTPFetcherLogging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMHTTPFetcherLogging.m; sourceTree = "<group>"; };
+		952A8B5917708D630029BB34 /* GTMHTTPFetcherService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMHTTPFetcherService.h; sourceTree = "<group>"; };
+		952A8B5A17708D630029BB34 /* GTMHTTPFetcherService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMHTTPFetcherService.m; sourceTree = "<group>"; };
+		952A8B5B17708D630029BB34 /* GTMHTTPFetchHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMHTTPFetchHistory.h; sourceTree = "<group>"; };
+		952A8B5C17708D630029BB34 /* GTMHTTPFetchHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMHTTPFetchHistory.m; sourceTree = "<group>"; };
+		952A8B5D17708D630029BB34 /* GTMHTTPUploadFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMHTTPUploadFetcher.h; sourceTree = "<group>"; };
+		952A8B5E17708D630029BB34 /* GTMHTTPUploadFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMHTTPUploadFetcher.m; sourceTree = "<group>"; };
+		952A8B5F17708D630029BB34 /* GTMMIMEDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMMIMEDocument.h; sourceTree = "<group>"; };
+		952A8B6017708D630029BB34 /* GTMMIMEDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMMIMEDocument.m; sourceTree = "<group>"; };
+		952A8B6117708D630029BB34 /* GTMReadMonitorInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMReadMonitorInputStream.h; sourceTree = "<group>"; };
+		952A8B6217708D630029BB34 /* GTMReadMonitorInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMReadMonitorInputStream.m; sourceTree = "<group>"; };
+		952A8B6317708D630029BB34 /* ReleaseNotes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReleaseNotes.txt; sourceTree = "<group>"; };
+		952A8B7417708D630029BB34 /* SPHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPHttpRequest.h; sourceTree = "<group>"; };
+		952A8B7517708D630029BB34 /* SPHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPHttpRequest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		952A8B2417708CD50029BB34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952A8B2B17708CD50029BB34 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		952A8B3417708CD50029BB34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952A8B3A17708CD50029BB34 /* SenTestingKit.framework in Frameworks */,
+				952A8B3C17708CD50029BB34 /* UIKit.framework in Frameworks */,
+				952A8B3D17708CD50029BB34 /* Foundation.framework in Frameworks */,
+				952A8B4017708CD50029BB34 /* libSPHttpRequest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		952A8B1E17708CD50029BB34 = {
+			isa = PBXGroup;
+			children = (
+				952A8B2C17708CD50029BB34 /* SPHttpRequest */,
+				952A8B4117708CD50029BB34 /* SPHttpRequestTests */,
+				952A8B2917708CD50029BB34 /* Frameworks */,
+				952A8B2817708CD50029BB34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		952A8B2817708CD50029BB34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				952A8B2717708CD50029BB34 /* libSPHttpRequest.a */,
+				952A8B3817708CD50029BB34 /* SPHttpRequestTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		952A8B2917708CD50029BB34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				952A8B2A17708CD50029BB34 /* Foundation.framework */,
+				952A8B3917708CD50029BB34 /* SenTestingKit.framework */,
+				952A8B3B17708CD50029BB34 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		952A8B2C17708CD50029BB34 /* SPHttpRequest */ = {
+			isa = PBXGroup;
+			children = (
+				952A8B5217708D630029BB34 /* GTMHttp */,
+				952A8B7317708D630029BB34 /* SPHttp */,
+				952A8B2D17708CD50029BB34 /* Supporting Files */,
+			);
+			path = SPHttpRequest;
+			sourceTree = "<group>";
+		};
+		952A8B2D17708CD50029BB34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				952A8B2E17708CD50029BB34 /* SPHttpRequest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		952A8B4117708CD50029BB34 /* SPHttpRequestTests */ = {
+			isa = PBXGroup;
+			children = (
+				952A8B4717708CD50029BB34 /* SPHttpRequestTests.h */,
+				952A8B4817708CD50029BB34 /* SPHttpRequestTests.m */,
+				952A8B4217708CD50029BB34 /* Supporting Files */,
+			);
+			path = SPHttpRequestTests;
+			sourceTree = "<group>";
+		};
+		952A8B4217708CD50029BB34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				952A8B4317708CD50029BB34 /* SPHttpRequestTests-Info.plist */,
+				952A8B4417708CD50029BB34 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		952A8B5217708D630029BB34 /* GTMHttp */ = {
+			isa = PBXGroup;
+			children = (
+				952A8B5317708D630029BB34 /* GTMGatherInputStream.h */,
+				952A8B5417708D630029BB34 /* GTMGatherInputStream.m */,
+				952A8B5517708D630029BB34 /* GTMHTTPFetcher.h */,
+				952A8B5617708D630029BB34 /* GTMHTTPFetcher.m */,
+				952A8B5717708D630029BB34 /* GTMHTTPFetcherLogging.h */,
+				952A8B5817708D630029BB34 /* GTMHTTPFetcherLogging.m */,
+				952A8B5917708D630029BB34 /* GTMHTTPFetcherService.h */,
+				952A8B5A17708D630029BB34 /* GTMHTTPFetcherService.m */,
+				952A8B5B17708D630029BB34 /* GTMHTTPFetchHistory.h */,
+				952A8B5C17708D630029BB34 /* GTMHTTPFetchHistory.m */,
+				952A8B5D17708D630029BB34 /* GTMHTTPUploadFetcher.h */,
+				952A8B5E17708D630029BB34 /* GTMHTTPUploadFetcher.m */,
+				952A8B5F17708D630029BB34 /* GTMMIMEDocument.h */,
+				952A8B6017708D630029BB34 /* GTMMIMEDocument.m */,
+				952A8B6117708D630029BB34 /* GTMReadMonitorInputStream.h */,
+				952A8B6217708D630029BB34 /* GTMReadMonitorInputStream.m */,
+				952A8B6317708D630029BB34 /* ReleaseNotes.txt */,
+			);
+			path = GTMHttp;
+			sourceTree = "<group>";
+		};
+		952A8B7317708D630029BB34 /* SPHttp */ = {
+			isa = PBXGroup;
+			children = (
+				952A8B7417708D630029BB34 /* SPHttpRequest.h */,
+				952A8B7517708D630029BB34 /* SPHttpRequest.m */,
+			);
+			path = SPHttp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		952A8B2617708CD50029BB34 /* SPHttpRequest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 952A8B4C17708CD50029BB34 /* Build configuration list for PBXNativeTarget "SPHttpRequest" */;
+			buildPhases = (
+				952A8B2317708CD50029BB34 /* Sources */,
+				952A8B2417708CD50029BB34 /* Frameworks */,
+				952A8B2517708CD50029BB34 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SPHttpRequest;
+			productName = SPHttpRequest;
+			productReference = 952A8B2717708CD50029BB34 /* libSPHttpRequest.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		952A8B3717708CD50029BB34 /* SPHttpRequestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 952A8B4F17708CD50029BB34 /* Build configuration list for PBXNativeTarget "SPHttpRequestTests" */;
+			buildPhases = (
+				952A8B3317708CD50029BB34 /* Sources */,
+				952A8B3417708CD50029BB34 /* Frameworks */,
+				952A8B3517708CD50029BB34 /* Resources */,
+				952A8B3617708CD50029BB34 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				952A8B3F17708CD50029BB34 /* PBXTargetDependency */,
+			);
+			name = SPHttpRequestTests;
+			productName = SPHttpRequestTests;
+			productReference = 952A8B3817708CD50029BB34 /* SPHttpRequestTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		952A8B1F17708CD50029BB34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "SpriteApp Inc";
+			};
+			buildConfigurationList = 952A8B2217708CD50029BB34 /* Build configuration list for PBXProject "SPHttpRequest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 952A8B1E17708CD50029BB34;
+			productRefGroup = 952A8B2817708CD50029BB34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				952A8B2617708CD50029BB34 /* SPHttpRequest */,
+				952A8B3717708CD50029BB34 /* SPHttpRequestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		952A8B3517708CD50029BB34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952A8B4617708CD50029BB34 /* InfoPlist.strings in Resources */,
+				952A8B8617708D630029BB34 /* ReleaseNotes.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		952A8B3617708CD50029BB34 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		952A8B2317708CD50029BB34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952A8B7617708D630029BB34 /* GTMGatherInputStream.m in Sources */,
+				952A8B7817708D630029BB34 /* GTMHTTPFetcher.m in Sources */,
+				952A8B7A17708D630029BB34 /* GTMHTTPFetcherLogging.m in Sources */,
+				952A8B7C17708D630029BB34 /* GTMHTTPFetcherService.m in Sources */,
+				952A8B7E17708D630029BB34 /* GTMHTTPFetchHistory.m in Sources */,
+				952A8B8017708D630029BB34 /* GTMHTTPUploadFetcher.m in Sources */,
+				952A8B8217708D630029BB34 /* GTMMIMEDocument.m in Sources */,
+				952A8B8417708D630029BB34 /* GTMReadMonitorInputStream.m in Sources */,
+				952A8B9C17708D630029BB34 /* SPHttpRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		952A8B3317708CD50029BB34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952A8B4917708CD50029BB34 /* SPHttpRequestTests.m in Sources */,
+				952A8B7717708D630029BB34 /* GTMGatherInputStream.m in Sources */,
+				952A8B7917708D630029BB34 /* GTMHTTPFetcher.m in Sources */,
+				952A8B7B17708D630029BB34 /* GTMHTTPFetcherLogging.m in Sources */,
+				952A8B7D17708D630029BB34 /* GTMHTTPFetcherService.m in Sources */,
+				952A8B7F17708D630029BB34 /* GTMHTTPFetchHistory.m in Sources */,
+				952A8B8117708D630029BB34 /* GTMHTTPUploadFetcher.m in Sources */,
+				952A8B8317708D630029BB34 /* GTMMIMEDocument.m in Sources */,
+				952A8B8517708D630029BB34 /* GTMReadMonitorInputStream.m in Sources */,
+				952A8B9D17708D630029BB34 /* SPHttpRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		952A8B3F17708CD50029BB34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 952A8B2617708CD50029BB34 /* SPHttpRequest */;
+			targetProxy = 952A8B3E17708CD50029BB34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		952A8B4417708CD50029BB34 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				952A8B4517708CD50029BB34 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		952A8B4A17708CD50029BB34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		952A8B4B17708CD50029BB34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		952A8B4D17708CD50029BB34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SPHttpRequest.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SPHttpRequest/SPHttpRequest-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		952A8B4E17708CD50029BB34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SPHttpRequest.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SPHttpRequest/SPHttpRequest-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		952A8B5017708CD50029BB34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SPHttpRequest/SPHttpRequest-Prefix.pch";
+				INFOPLIST_FILE = "SPHttpRequestTests/SPHttpRequestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		952A8B5117708CD50029BB34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SPHttpRequest/SPHttpRequest-Prefix.pch";
+				INFOPLIST_FILE = "SPHttpRequestTests/SPHttpRequestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		952A8B2217708CD50029BB34 /* Build configuration list for PBXProject "SPHttpRequest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				952A8B4A17708CD50029BB34 /* Debug */,
+				952A8B4B17708CD50029BB34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		952A8B4C17708CD50029BB34 /* Build configuration list for PBXNativeTarget "SPHttpRequest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				952A8B4D17708CD50029BB34 /* Debug */,
+				952A8B4E17708CD50029BB34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		952A8B4F17708CD50029BB34 /* Build configuration list for PBXNativeTarget "SPHttpRequestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				952A8B5017708CD50029BB34 /* Debug */,
+				952A8B5117708CD50029BB34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 952A8B1F17708CD50029BB34 /* Project object */;
+}

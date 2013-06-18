@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Comet_Test/Comet_Test.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Parse/Parse.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SPHttpRequest/SPHttpRequest.xcodeproj">
+   </FileRef>
+</Workspace>
